@@ -52,7 +52,7 @@ public class MainActivity extends Activity implements TransportListener
 				this,
 				null,
 				this,
-				EnumSet.of(TransportKind.WIFI)
+				EnumSet.of(TransportKind.WIFI, TransportKind.BLUETOOTH)
 		);
 
 		this.transport.start();
