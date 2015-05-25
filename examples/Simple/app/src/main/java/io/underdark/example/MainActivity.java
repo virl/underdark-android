@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.EnumSet;
+import java.util.Random;
 
 import ch.qos.logback.classic.android.BasicLogcatConfigurator;
 import io.underdark.transport.Link;
@@ -46,9 +47,13 @@ public class MainActivity extends Activity implements TransportListener
 
 		logger.info("Activity created");
 
+		long nodeId = new Random().nextLong();
+		if(nodeId < 0)
+			nodeId = -nodeId;
+
 		this.transport =
 		Underdark.configureTransport(
-				42,
+				nodeId,
 				this,
 				null,
 				this,
