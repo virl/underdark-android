@@ -11,11 +11,11 @@ import org.slf4j.LoggerFactory;
 import java.util.EnumSet;
 
 import ch.qos.logback.classic.android.BasicLogcatConfigurator;
-import io.underdark.api.Link;
-import io.underdark.api.Transport;
-import io.underdark.api.TransportKind;
-import io.underdark.api.TransportListener;
-import io.underdark.api.Underdark;
+import io.underdark.transport.Link;
+import io.underdark.transport.Transport;
+import io.underdark.transport.TransportKind;
+import io.underdark.transport.TransportListener;
+import io.underdark.Underdark;
 
 
 public class MainActivity extends Activity implements TransportListener
@@ -44,8 +44,7 @@ public class MainActivity extends Activity implements TransportListener
 
 		configureLogging();
 
-		logger.error("foo");
-		logger.debug("onCreate");
+		logger.info("Activity created");
 
 		this.transport =
 		Underdark.configureTransport(
@@ -94,19 +93,19 @@ public class MainActivity extends Activity implements TransportListener
 	@Override
 	public void transportLinkConnected(Transport transport, Link link)
 	{
-		logger.debug("connected");
+		logger.debug("link connected");
 	}
 
 	@Override
 	public void transportLinkDisconnected(Transport transport, Link link)
 	{
-		logger.debug("disconnected");
+		logger.debug("link disconnected");
 	}
 
 	@Override
 	public void transportLinkDidReceiveFrame(Transport transport, Link link, byte[] bytes)
 	{
-		logger.debug("frame");
+		logger.debug("link frame");
 	}
 	//endregion
 } // MainActivity
