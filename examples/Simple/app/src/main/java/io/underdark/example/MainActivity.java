@@ -53,6 +53,7 @@ public class MainActivity extends Activity implements TransportListener
 
 		this.transport =
 		Underdark.configureTransport(
+				this.getApplicationContext().getPackageName().hashCode(),
 				nodeId,
 				this,
 				null,
