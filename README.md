@@ -6,3 +6,8 @@ repositories {
     }
 }
 ```
+```
+dependencies {
+    compile 'io.underdark:underdark:1.0.0'
+}
+```
