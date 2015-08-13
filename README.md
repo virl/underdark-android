@@ -8,6 +8,6 @@ repositories {
 ```
 ```
 dependencies {
-    compile 'io.underdark:underdark:1.0.0'
+    compile 'io.underdark:underdark:1.0.0@aar'
 }
 ```
