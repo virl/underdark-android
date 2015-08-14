@@ -1,4 +1,7 @@
 # Underdark for Android
+## Author
+You can contact me at http://telegram.me/virlof
+
 ## Installation
 First, add underdark repository in your root or app's build.gradle:
 ```
