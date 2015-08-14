@@ -16,3 +16,15 @@ dependencies {
 ```
 ## Getting started
 Underdark API is very simple — it consists of entry class `Underdark` with method `configureTransport()` — it allows your to create `Transport` instance with desired parameters (like network interface type) and set listener for callbacks.
+
+Full documentation resides in javadoc jar, starting from `io.underdark.Underdark` class.
+If you're using IntelliJ IDEA, you can automatically download it like this:
+```
+apply plugin: 'idea'
+
+idea {
+    module {
+        downloadJavadoc = true
+    }
+}
+```
