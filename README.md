@@ -1,4 +1,5 @@
 # Underdark for Android
+Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support.
 ## Author
 You can contact me at http://telegram.me/virlof
 
