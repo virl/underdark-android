@@ -15,7 +15,7 @@ repositories {
 Next, add Underdark library dependency in your apps' build.gradle:
 ```
 dependencies {
-    compile ('io.underdark:underdark:1.0.1@aar') { transitive = true }
+    compile 'io.underdark:underdark:1.+'
 }
 ```
 ## Getting started
