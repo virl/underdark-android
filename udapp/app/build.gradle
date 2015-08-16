@@ -31,7 +31,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.1'
-    compile ('io.underdark:underdark:1.0.1@aar') { transitive = true }
-    //compile(name:'underdark-release', ext:'aar')
+    compile 'io.underdark:underdark:1.+'
     compile 'org.slf4j:slf4j-api:1.7.12'
 }
