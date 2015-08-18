@@ -3,6 +3,10 @@ Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support.
 ## Author
 You can contact me at http://telegram.me/virlof
 
+##License
+This library can be is for non-commercial and educational purposes only.
+If you want to use it in your products, please contact the author.
+
 ## Installation
 First, add underdark repository in your root or app's build.gradle:
 ```
