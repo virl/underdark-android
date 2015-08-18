@@ -1,5 +1,7 @@
 # Underdark for Android
 Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support.
+Demo app: https://play.google.com/store/apps/details?id=me.solidarity.app
+
 ## Author
 You can contact me via Telegram at http://telegram.me/virlof or by email at virlof@gmail.com
 
