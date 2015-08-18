@@ -8,7 +8,7 @@ This library can be is for non-commercial and educational purposes only.
 If you want to use it in your products, please contact the author.
 
 ##Features
-Please note that for Bluetooth connection to work, one of the phones must have Android 5.x AND support Bluetooth LE Peripheral mode (have "yes" in last column here: http://altbeacon.github.io/android-beacon-library/beacon-transmitter-devices.html).
+Please note that for Bluetooth connection to work, one of the phones must have Android 5.x AND support Bluetooth LE Peripheral mode (have "yes" in the last column here: http://altbeacon.github.io/android-beacon-library/beacon-transmitter-devices.html).
 
 1. Allows apps on mobile devices to auto-discover and connect to each other via Wi-Fi and Bluetooth without any intervention from the user and without using any Internet connection.;
 
