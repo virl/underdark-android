@@ -2,6 +2,7 @@
 Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support.
 ## Author
 You can contact me at http://telegram.me/virlof
+My email: virlof@gmail.com
 
 ##License
 This library can be is for non-commercial and educational purposes only.
