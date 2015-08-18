@@ -7,6 +7,23 @@ You can contact me at http://telegram.me/virlof
 This library can be is for non-commercial and educational purposes only.
 If you want to use it in your products, please contact the author.
 
+##Features
+Please note that for Bluetooth connection to work, one of the phones must have Android 5.x AND support Bluetooth LE Peripheral mode (have "yes" in last column here: http://altbeacon.github.io/android-beacon-library/beacon-transmitter-devices.html).
+
+1. Allows apps on mobile devices to auto-discover and connect to each other via Wi-Fi and Bluetooth without any intervention from the user and without using any Internet connection.;
+
+2. Works both in foreground and background app modes;
+
+3. Allows asynchronous transfer of messages, photos and sounds — all without freezing the UI of the app;
+
+4. Apps can discover other users of the app nearby — without using GPS or Internet.
+
+5. Routes messages from Wi-Fi to Bluetooth-connected devices and vice versa — so devices with turned off Wi-Fi will receive all the same data via Bluetooth.
+
+6. Work between Android and iPhone via infrastructure Wi-Fi.
+
+7. Doesn’t eat battery.
+
 ## Installation
 First, add underdark repository in your root or app's build.gradle:
 ```
