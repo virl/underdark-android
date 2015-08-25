@@ -2,6 +2,7 @@
 Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support.
 
 Demo app: https://play.google.com/store/apps/details?id=me.solidarity.app
+
 Video demo: http://www.youtube.com/watch?v=ox4dh0s1XTw
 
 ## Author
