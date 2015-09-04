@@ -11,7 +11,7 @@ Video demo: http://www.youtube.com/watch?v=ox4dh0s1XTw
 You can contact me via Telegram at http://telegram.me/virlof or by email at virlof@gmail.com
 
 ##License
-This library can be is for non-commercial and educational purposes only.
+This library may be used for non-commercial and educational purposes only.
 If you want to use it in your products, please contact the author.
 
 ##Features
