@@ -3,6 +3,8 @@ http://underdark.io
 
 Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support.
 
+This repository contains sources for examples of using the library and also short "Getting Started" guide below.
+
 ## Demo apps
 * Android: https://play.google.com/store/apps/details?id=me.solidarity.app
 * iOS http://itunes.apple.com/app/id956548749
