@@ -1,37 +1,20 @@
-# Underdark for Android
-Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support.
+# Underdark Trial & Examples for Android
+Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support. http://underdark.io
 
-iOS version of the library will be available later.
-
-Demo apps (Android and iOS):
+## Demo apps (Android and iOS):
 * https://play.google.com/store/apps/details?id=me.solidarity.app
 * http://itunes.apple.com/app/id956548749
+
+Please note that for Bluetooth connection to work, one of the phones must have Android 5.x AND support Bluetooth LE Peripheral mode (have "yes" in the last column here: http://altbeacon.github.io/android-beacon-library/beacon-transmitter-devices.html).
 
 Video demo: http://www.youtube.com/watch?v=ox4dh0s1XTw
 
 ## Author
 You can contact me via Telegram at http://telegram.me/virlof or by email at virlof@gmail.com
 
-##License
+## License
 This library may be used for non-commercial and educational purposes only.
 If you want to use it in your products, please contact the author.
-
-##Features
-Please note that for Bluetooth connection to work, one of the phones must have Android 5.x AND support Bluetooth LE Peripheral mode (have "yes" in the last column here: http://altbeacon.github.io/android-beacon-library/beacon-transmitter-devices.html).
-
-1. Allows apps on mobile devices to auto-discover and connect to each other via Wi-Fi and Bluetooth without any intervention from the user and without using any Internet connection;
-
-2. Works both in foreground and background app modes;
-
-3. Allows asynchronous transfer of messages, photos and sounds — all without freezing the UI of the app;
-
-4. Apps can discover other users of the app nearby — without using GPS or Internet.
-
-5. Routes messages from Wi-Fi to Bluetooth-connected devices and vice versa — so devices with turned off Wi-Fi will receive all the same data via Bluetooth.
-
-6. Work between Android and iPhone via infrastructure Wi-Fi.
-
-7. Doesn’t eat battery.
 
 ## Installation
 First, add underdark repository in your root or app's build.gradle:
