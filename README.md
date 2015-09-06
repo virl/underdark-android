@@ -1,5 +1,7 @@
 # Underdark Trial & Examples for Android
-Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support. http://underdark.io
+http://underdark.io
+
+Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support.
 
 ## Demo apps
 * Android: https://play.google.com/store/apps/details?id=me.solidarity.app
