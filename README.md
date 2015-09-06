@@ -1,11 +1,11 @@
 # Underdark Trial & Examples for Android
 Peer-to-peer networking library for Android, with Wi-Fi and Bluetooth support. http://underdark.io
 
-## Demo apps (Android and iOS):
-* https://play.google.com/store/apps/details?id=me.solidarity.app
-* http://itunes.apple.com/app/id956548749
+## Demo apps
+* Android: https://play.google.com/store/apps/details?id=me.solidarity.app
+* iOS http://itunes.apple.com/app/id956548749
 
-Please note that for Bluetooth connection to work, one of the phones must have Android 5.x AND support Bluetooth LE Peripheral mode (have "yes" in the last column here: http://altbeacon.github.io/android-beacon-library/beacon-transmitter-devices.html).
+Please note that for Bluetooth connection to work on Android, one of the phones must have Android 5.x AND support Bluetooth LE Peripheral mode (have "yes" in the last column here: http://altbeacon.github.io/android-beacon-library/beacon-transmitter-devices.html).
 
 Video demo: http://www.youtube.com/watch?v=ox4dh0s1XTw
 
