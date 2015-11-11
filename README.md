@@ -25,7 +25,7 @@ First, add underdark repository in your root or app's build.gradle:
 ```
 repositories {
     maven {
-        url 'https://dl.bintray.com/glint/maven/'
+        url 'https://dl.bintray.com/underdark/android/'
     }
 }
 ```
