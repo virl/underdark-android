@@ -7,7 +7,7 @@ This repository contains sources for examples of using the library and also shor
 
 ## Demo apps
 * Android: https://play.google.com/store/apps/details?id=me.solidarity.app
-* iOS http://itunes.apple.com/app/id956548749
+* iOS: http://itunes.apple.com/app/id956548749
 
 Please note that for Bluetooth connection to work on Android, one of the phones must have Android 5.x AND support Bluetooth LE Peripheral mode (have "yes" in the last column here: http://altbeacon.github.io/android-beacon-library/beacon-transmitter-devices.html).
 
